@@ -1,0 +1,6 @@
+{
+  "name": "ERIC 2026",
+  "description": "Official elite platform for Electronics Robotics Innovation Competitions (ERIC 2026) featuring dynamic registrations, high-fidelity fintech mock payment engine, interactive dashboard, and SheetJS multi-sheet Excel exporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

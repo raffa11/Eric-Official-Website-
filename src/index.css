@@ -1,0 +1,31 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-royal: #0047AB;
+  --color-cobalt: #002D62;
+  --color-vibrant-yellow: #FFD700;
+  --color-gold: #C5A059;
+  --color-silver: #C0C0C0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F8F7F3;
+  color: #121212;
+}
+
+/* Custom micro-interactions for bento grids and neon-less premium glassmorphism */
+.glass-surface {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}

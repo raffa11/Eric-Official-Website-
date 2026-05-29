@@ -1,0 +1,19 @@
+/*
+Theme Name: ERIC 2026 Bold Typography Theme
+Theme URI: https://eric2026.org/
+Author: Google AI Studio Coder
+Author URI: https://ai.studio/build
+Description: Custom, developer-vetted premium Single Page Application (SPA) theme for Electronics Robotics Innovation Competitions (ERIC 2026). Fully responsive, features bold display typography, high-contrast aesthetics, mock fintech checkout engines, interactive admin dashboard, and SheetJS data analytics tools.
+Version: 1.0.0
+License: Apache License 2.0
+License URI: https://www.apache.org/licenses/LICENSE-2.0.html
+Text Domain: eric-2026
+Tags: accessibility-ready, custom-background, custom-colors, featured-images, full-width-template, translation-ready
+*/
+
+/* Default administrative overrides if needed */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
